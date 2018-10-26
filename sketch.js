@@ -23,6 +23,7 @@ function setup() {
   txt2.style('color','white');
   txt2.style('padding','30%');
   video = createVideo('Video/1.mp4')
+  video.play();
   video.loop();
   video.style('z-index', '-1');
   video.position(windowWidth * 0.6, windowHeight * 0.45);
@@ -31,31 +32,37 @@ function setup() {
   video2.style('z-index', '-3');
   video2.style('width', '800px');
   video2.position(0, 0);
+  video2.play();
   video2.loop();
   video3 = createVideo('Video/3.mp4')
   video3.style('z-index', '-2');
   video3.style('width', '500px');
   video3.position(windowWidth * 0.3, windowHeight * 0.5);
+  video3.play();
   video3.loop();
   video4 = createVideo('Video/7.mp4')
   video4.style('z-index', '-3');
   video4.style('width', '460px');
   video4.position(windowWidth * 0.5, windowHeight * 0.2);
+  video4.play();
   video4.loop();
   video5 = createVideo('Video/6.mp4')
   video5.style('z-index', '-2');
   video5.style('width', '360px');
   video5.position(windowWidth * 0.05, windowHeight * 0.45);
+  video5.play();
   video5.loop();
   video6 = createVideo('Video/8.mp4')
   video6.style('z-index', '-4');
   video6.style('width', '500px');
   video6.position(windowWidth * 0.55, -windowHeight * 0.1);
+  video6.play();
   video6.loop();
   video7 = createVideo('Video/9.mp4')
   video7.style('z-index', '-2');
   video7.style('width', '350px');
   video7.position(windowWidth * 0.25, windowHeight * 0.2);
+  video7.play();
   video7.loop();
   imageMode(CENTER);
 }
